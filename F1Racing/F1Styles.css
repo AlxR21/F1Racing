@@ -1,0 +1,109 @@
+body{
+   background-image:url("./Racetrackk.jpg");
+   background-size: cover;
+   margin-bottom: 25px;
+   
+}
+
+#hype{
+    text-align: center;
+    background: linear-gradient(to left ,#1aff00 0%,#dde600 100%);
+    -webkit-background-clip :text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: fantasy;
+    font-size: 100px;
+
+}
+
+
+#Choose{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background: linear-gradient(to left,#5901ab ,#03f51b,#039af8,#b6e707);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    
+      
+    }
+
+#Carchoice{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  border-radius: 10px;
+  background: linear-gradient(to left,#00d2ff 0%,#3a47d5 100%);
+ 
+
+}
+
+.cards{
+  width: 250px;
+  box-shadow: 0 0 20px 2px;
+  transition: 0.6s;
+  margin: 5px;
+
+}
+.cards:hover{
+  cursor:pointer;
+  min-width: fit-content;
+  transform:scale(1.08);
+  z-index: 2;
+
+}
+.cards:active{
+  min-width: fit-content ;
+  transform: scale(1.1);
+}
+
+
+img{
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+.butt-on{
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+
+#button{
+
+  font-size: large;
+  color: #f8fc03;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to left,#f9033d,#c217c8,#4205f8);
+  border-radius: 15px;
+  box-shadow: none;
+  height: 50px;
+  width: 86px;
+  transition: 0.09s;
+
+}
+
+#button:hover{
+  transform: scale(1.2);
+  background: linear-gradient(to left,#f9033d,#f70202,#ff6a00);
+}
+
+#bet{
+  text-align: center;
+  padding: 10px;
+  color: rgb(63, 6, 251);
+  border: rgb(63, 6, 251);
+  border: width 8px; ;
+  border-radius: 10px;
+}
+
+
+
